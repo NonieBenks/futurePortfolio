@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+}
+.datsmy{
+    padding-top: 250px;
+    text-align: center;
+    color: #F3710E;
+    font-size: 200%;
+}
+body{
+	font-family: 'Questrial', sans-serif;
+        background-image:url(/Users/a123/Desktop/Пікчерз/headphones_laptop_macbook_apple_107920_1280x720.jpg);
+}
+
+
+.check{
+    color: #22768C;
+    outline: solid 5px;
+    margin-left: 45%;
+    margin-top: 10%; 
+    font-size: 40px;
+    
+}
+.check:hover {
+    color: white;
+    background-color: #F3710E;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+}
+.myname{
+    color: #22768C;
+    padding-left: 11px;
+    float: left;
+    margin-top: 0%;
+}
+.myname:hover{
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    color: #2C8178;
+}
+.avatar{
+    opacity: 0.85;
+    border: 4px solid white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    float: right;
+    margin-right: 10px;
+}
+.avatar:hover{
+      -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+

@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Questrial', sans-serif;
+	background-image:url(/Users/a123/Desktop/Пікчерз/headphones_laptop_macbook_apple_107920_1280x720.jpg);
+}
+
+
+.myname{
+    color: #22768C;
+    padding-left: 11px;
+    float: left;
+    margin-top: 0%;
+}
+.myname:hover{
+    color: #2C8178;
+    text-decoration: underline;
+    -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+
+}
+.img-circle{
+    opacity:0.85;
+    padding: 10px;
+    width: 90px;
+    height: 90px;
+    float: right;
+}
+.img-circle:hover{
+      -webkit-transition-duration: 0.4s;
+    transition-duration: 0.4s;
+    opacity: 1;
+}
+
