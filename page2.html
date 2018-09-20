@@ -1,18 +1,53 @@
 <html>
 <head>
 	<meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<link rel="stylesheet" href="page2.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  
 	<title>Nataliya Ben'ko</title>
 </head>
 <body>
-<header>
-        <h2 class = "myname"><a onclick="location.href='/Applications/MAMP/htdocs/site/portfolio/portfolio.html'" >Nataliya Ben'ko</a></h2>
-        <img src = "/Users/a123/Desktop/web/iconMe.jpeg" class = "img-circle" alt = "Cinque Terre">
-</header>
+<div id="mySidenav" class="sidenav">
+ <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="portfolio.html">Main</a>
+  <a href="#">Gallery</a>
+  <a href="#">YouTube</a>
+  <a href="#">Social Networks</a>
+</div>
+
+
+
+
+<div id="content">
+<span onclick="openNav()" class="navBtn" id="main">MENU</span>
+<img src = "/Users/a123/Desktop/web/iconMe.jpeg" class = "avatar" alt = "Cinque Terre">
+</div>
+
+<!--A polaroid gallery-->
+<div class="gallery">
+    <figure class="shadow-lg rounded">
+        <img src="/Users/a123/Desktop/Photos/Готове/macroph copy.jpg">
+    <figcaption>Burning flower.</figcaption>
+    </figure>
+    <figure class="shadow-lg rounded">
+        <img src="/Users/a123/Desktop/Photos/Готове/лампочка.jpg">
+    <figcaption>Lightbulb.</figcaption>
+    </figure>
+    <figure class="shadow-lg rounded">
+    <img src="/Users/a123/Desktop/Photos/Екзамен/2.Репортажна.jpg">
+       <figcaption>Little loner with a dog.</figcaption> 
+        </figure>
+
+     <figure class="shadow-lg rounded">
+    <img src="/Users/a123/Desktop/Photos/Екзамен/4.Пейзаж.jpg">
+         <figcaption>Sunset by the river.</figcaption> 
+        </figure>
+    <img>
+</div>
 
 
 
@@ -21,6 +56,6 @@
 
 <iframe id="video" width = "420" height = "315" src="//www.youtube.com/embed/h2T-jgo8i7A" frameborder="0" allowfullscreen></iframe> -->
 
-
+<script type="text/javascript" src="page2.js"></script>
 </body>
 </html>
