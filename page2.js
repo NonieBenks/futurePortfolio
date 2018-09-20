@@ -1,9 +1,14 @@
-/* $(document).ready(function() {
-  $('#play-video').on('click', function(ev) {
- 
-    $("#video")[0].src += "&autoplay=1";
-    ev.preventDefault();
- 
-  });
-});
-*/
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+    document.getElementById("content").style.marginLeft = "250px";
+    document.getElementById("main").style.display = "none";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+    document.getElementById("content").style.marginLeft = "0";
+   
+    document.getElementById("main").style.display = "";
+}
+
