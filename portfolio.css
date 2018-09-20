@@ -1,42 +1,55 @@
 *{
     box-sizing: border-box;
+
 }
 .datsmy{
-    padding-top: 250px;
+    padding-top: 200px;
     text-align: center;
-    color: #F3710E;
-    font-size: 200%;
+    color: #403636;
+    font-size: 250%;
 }
 body{
 	font-family: 'Questrial', sans-serif;
-        background-image:url(/Users/a123/Desktop/Пікчерз/headphones_laptop_macbook_apple_107920_1280x720.jpg);
+      /*  background-image:url(/Users/a123/Desktop/Пікчерз/headphones_laptop_macbook_apple_107920_1280x720.jpg); */
 }
 
-
+img#white{
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    filter: blur(1px);
+}
 .check{
-    color: #22768C;
+    color: #793131;
     outline: solid 5px;
-    margin-left: 45%;
     margin-top: 10%; 
     font-size: 40px;
     
 }
 .check:hover {
     color: white;
-    background-color: #F3710E;
+    background-color: #403636;
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
+.container {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .myname{
-    color: #22768C;
+    color: #793131;
     padding-left: 11px;
     float: left;
-    margin-top: 0%;
+    margin-top: -20px;
+    border: 5px solid white;
+    padding: 15px;
 }
 .myname:hover{
     -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
-    color: #2C8178;
+    color: #111;
 }
 .avatar{
     opacity: 0.85;
@@ -45,11 +58,14 @@ body{
     width: 80px;
     height: 80px;
     float: right;
-    margin-right: 10px;
+    margin-top: -20px;
 }
 .avatar:hover{
       -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
     opacity: 1;
 }
+
+
+
 
